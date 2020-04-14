@@ -1,20 +1,34 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import Mission from "../components/mission"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div id="sec1-home">
+      <div className="App">
+        <h1 className="site-title">
+          EXIM <br />
+          AIR CARE
+        </h1>
+        <p className="site-description">
+          Welcome to Exim AirCare, Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua
+        </p>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div id="sec2-home">
+      <div className="App"></div>
+    </div>
+    <div id="sec3-home">
+      <div className="App"></div>
+    </div>
+    <Mission />
+    <div id="sec4-home">
+      <div className="App"></div>
+    </div>
   </Layout>
 )
 

@@ -6,7 +6,7 @@ const AboutPage = () => {
   return (
     <Layout>
       <SEO title="About" />
-      <div>
+      <div className="App">
         <h1>About Page</h1>
       </div>
     </Layout>

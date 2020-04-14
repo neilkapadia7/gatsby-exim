@@ -6,7 +6,7 @@ const products = () => {
   return (
     <Layout>
       <SEO title="Products" />
-      <div>
+      <div className="App">
         <h1>Products</h1>
       </div>
     </Layout>

@@ -21,17 +21,17 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
 
-      <main className="App">{children}</main>
+      <main>{children}</main>
 
       <footer>
-        © {new Date().getFullYear()}, Developed and Maintained by
+        © {new Date().getFullYear()} Exim AirCare, Developed and Maintained by
         {` `}
         <a
           href="https://www.neyatechdevelopers.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          {data.site.siteMetadata.author}
+          Neya<span style={{ color: "#FF214F" }}>Tech</span> Developers
         </a>
       </footer>
     </>

@@ -75,6 +75,7 @@ nav ul li a {
   height: 100vh;
   width: 100%;
   background-color: rgb(255, 255, 255);
+  display: table;
 }
 .site-title {
   font-family: "Roboto", sans-serif;

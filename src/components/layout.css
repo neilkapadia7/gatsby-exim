@@ -4,6 +4,7 @@ html {
   -webkit-text-size-adjust: 100%;
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -13,12 +14,39 @@ body {
   font-family: "Roboto", sans-serif;
   text-align: left;
 }
+.App {
+  width: 75%;
+  padding: 80px 12.5% 60px 12.5%;
+  display: table;
+}
 a {
   text-decoration: none;
 }
 a:hover {
   text-decoration: none;
 }
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  margin-top: 20px 0 0 0;
+  text-align: center;
+}
+.button-div {
+  margin-top: 40px;
+}
+.button-blue {
+  padding: 12px 30px;
+  background-color: #482ff7;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+i {
+  display: block;
+}
+
 /* Nav */
 header {
   width: 100%;
@@ -66,10 +94,6 @@ nav ul li a {
   color: #ffffff;
   font-weight: 500;
 }
-.App {
-  width: 75%;
-  padding: 120px 12.5% 60px 12.5%;
-}
 /* Home */
 #sec1-home {
   height: 100vh;
@@ -77,37 +101,139 @@ nav ul li a {
   background-color: rgb(255, 255, 255);
   display: table;
 }
+.heading-line {
+  width: 15%;
+  margin: 0;
+  background-color: #3d5af1;
+  border: 1px solid #3d5af1;
+}
 .site-title {
   font-family: "Roboto", sans-serif;
   font-weight: 800;
-  font-size: 95px;
-  margin-top: 15px 0 0 0;
+  font-size: 85px;
+  margin: 110px 0 40px 0;
   letter-spacing: 4px;
   line-height: 105px;
 }
 .site-description {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 18px;
   width: 80%;
-  margin: 0 20% 0 0;
+  margin: -20px 20% 0 0;
+  display: table;
+  line-height: 26px;
 }
 
 #sec2-home {
   height: 100vh;
   width: 100%;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(245, 245, 245);
+  display: table;
 }
 
 #sec3-home {
   height: 100vh;
   width: 100%;
   background-color: rgb(255, 255, 255);
+  display: table;
+}
+.card-div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px 0;
+}
+.card {
+  width: 30%;
+  height: 450px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  box-shadow: 4px 4px 14px 0 rgba(0, 0, 0, 0.18);
+}
+.card-top {
+  background-color: #d1d1d1;
+  height: 200px;
+}
+.card-bottom {
+  height: 250px;
+}
+.card-top img {
+  height: 100%;
+  width: 100%;
+}
+.card-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+  margin: 40px auto 20px auto;
+}
+.card-body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  width: 90%;
+  margin: 25px auto 30px auto;
+  color: rgb(80, 80, 80);
 }
 #sec4-home {
-  height: 100vh;
+  height: 55vh;
   width: 100%;
   background-color: rgb(255, 255, 255);
+  display: table;
+}
+.row3 {
+  width: 75%;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+.box2 {
+  height: 100%;
+  width: 25%;
+}
+#sec4-home i {
+  margin-top: 70px;
+  color: #000 !important;
+  font-size: 40px;
+  text-align: center !important;
+  margin-left: 0;
+  width: 100%;
+}
+.chota_heading3 {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  line-height: 25px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 30px;
+}
+.sub_heading2 {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  color: #6f6f6f;
+  line-height: 20px;
+  text-align: center;
+}
+.last_chota_heading {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: #ff214e;
+  line-height: 25px;
+  font-weight: 400;
+  text-align: center;
 }
 
 /* Mission */

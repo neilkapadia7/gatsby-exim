@@ -39,7 +39,7 @@ a:hover {
   font-weight: 500;
   font-size: 34px;
   line-height: 43px;
-  margin-top: 0;
+  margin: 0;
 }
 .page-description-para {
   font-weight: 400;
@@ -412,4 +412,63 @@ footer a {
   line-height: 24px;
   margin-top: 0;
   color: rgb(111, 111, 111);
+}
+
+/* Products Page */
+
+/* Contact Page */
+form {
+  width: 55%;
+  margin: 40px auto;
+}
+.input-field {
+  width: 100%;
+  margin-top: 10px;
+}
+.input-field label {
+  /* margin-top: 10px; */
+  font-size: 13px;
+  color: rgb(99, 99, 99);
+  font-weight: 500;
+}
+input {
+  width: 100%;
+  padding: 14px 8px;
+  border-radius: 3px;
+  outline: none;
+  border: 0.4px solid rgb(196, 196, 196);
+  background-color: #f8f8ffb7;
+  margin: 8px 0;
+  color: rgb(122, 122, 122);
+  font-weight: 400;
+  font-size: 13px;
+}
+::placeholder {
+  color: rgb(170, 170, 170);
+  font-weight: 400;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+textarea {
+  width: 100%;
+  height: 80px;
+  padding: 14px 8px;
+  border-radius: 3px;
+  outline: none;
+  border: 0.4px solid rgb(196, 196, 196);
+  background-color: #f8f8ffb7;
+  margin: 8px 0;
+  color: rgb(122, 122, 122);
+  font-weight: 400;
+  font-size: 13px;
+}
+.input-submit {
+  width: 100%;
+  padding: 0 8px;
+}
+.submit {
+  padding: 14px 30px !important;
+  width: 100%;
+  font-weight: 500 !important;
+  font-size: 13px !important;
 }

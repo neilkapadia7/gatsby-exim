@@ -16,30 +16,38 @@ const ContactPage = () => {
             </p>
           </center>
 
-          <form netlify>
+          <form netlify name="contact" method="POST" data-netlify="true">
             <div className="input-field">
-              <label>Name</label>
-              <input type="text" placeholder="Enter your name" required />
+              <label>
+                Name
+                <input type="text" placeholder="Enter your name" required />
+              </label>
             </div>
             <div className="input-field">
-              <label>Email</label>
-              <input
-                type="email"
-                placeholder="Enter your email address"
-                required
-              />
+              <label>
+                Email
+                <input
+                  type="email"
+                  placeholder="Enter your email address"
+                  required
+                />
+              </label>
             </div>
             <div className="input-field">
-              <label>Phone Number</label>
-              <input
-                type="number"
-                placeholder="Enter your phone number"
-                required
-              />
+              <label>
+                Phone Number
+                <input
+                  type="number"
+                  placeholder="Enter your phone number"
+                  required
+                />
+              </label>
             </div>
             <div className="input-field">
-              <label>Message</label>
-              <textarea placeholder="Enter your message" required></textarea>
+              <label>
+                Message
+                <textarea placeholder="Enter your message" required></textarea>
+              </label>
             </div>
             <div className="input-submit">
               <input

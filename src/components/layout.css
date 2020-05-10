@@ -4,7 +4,7 @@ html {
   -webkit-text-size-adjust: 100%;
   padding: 0;
   margin: 0;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 body {
   margin: 0;
@@ -14,6 +14,7 @@ body {
   font-family: "Roboto", sans-serif;
   text-align: left;
   background-color: #f4f6fc;
+  scroll-behavior: smooth !important;
 }
 .App {
   width: 75%;
@@ -40,6 +41,15 @@ a:hover {
   line-height: 43px;
   margin-top: 0;
 }
+.page-description-para {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 0;
+  color: rgb(111, 111, 111);
+  text-align: center;
+  width: 50%;
+}
 .button-div {
   margin-top: 40px;
 }
@@ -56,6 +66,21 @@ a:hover {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 15px;
+  border-radius: 3px;
+}
+.button-blue-small {
+  padding: 11px 25px;
+  background: rgb(108, 183, 255);
+  background: linear-gradient(
+    50deg,
+    rgba(108, 183, 255, 1) 0%,
+    rgba(121, 133, 255, 1) 100%
+  );
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  border-radius: 3px;
 }
 i {
   display: block;
@@ -162,12 +187,20 @@ nav ul li a {
   margin: auto;
 }
 .about-sec-para {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
   font-family: "Roboto", sans-serif;
   line-height: 24px;
   margin: 1px 0 30px 0;
-  color: #6f6f6f;
+  color: #5e5e5e;
+}
+
+.about-sec-right img {
+  height: 90%;
+  width: 90%;
+  margin: auto 5%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(185, 185, 185);
 }
 
 #sec3-home {
@@ -216,14 +249,15 @@ nav ul li a {
 }
 .card-body {
   font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-size: 14px;
-  line-height: 18px;
   text-align: center;
-  width: 90%;
+  width: 85%;
   margin: 25px auto 30px auto;
-  color: rgb(80, 80, 80);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(111, 111, 111);
 }
+
 #sec4-home {
   height: 55vh;
   width: 100%;
@@ -231,20 +265,18 @@ nav ul li a {
   display: table;
 }
 .row3 {
-  width: 75%;
+  width: 65%;
   height: 100%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
+  margin: 25px auto;
 }
 .box2 {
   height: 100%;
   width: 25%;
+  margin: auto;
 }
 #sec4-home i {
   margin-top: 70px;
@@ -327,4 +359,57 @@ footer a {
   letter-spacing: 1px;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
+}
+
+/* About Page */
+.about-page-main-div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 70px 0 40px 0;
+}
+.about-page-left {
+  width: 50%;
+}
+.about-page-right {
+  width: 40%;
+  margin-left: 5%;
+  padding: 20px 0;
+}
+.about-page-right2 {
+  width: 50%;
+}
+.about-page-left2 {
+  width: 40%;
+  margin-right: 5%;
+  padding: 20px 0;
+}
+.about-page-left img {
+  width: 100%;
+  height: 100%;
+}
+.about-page-right2 img {
+  width: 100%;
+  height: 100%;
+}
+.about-heading-para {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 1.5px;
+  color: rgb(22, 22, 22);
+  margin: 0;
+}
+.about-subheading-para {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(35, 35, 35);
+}
+.about-page-para {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 0;
+  color: rgb(111, 111, 111);
 }

@@ -2,9 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Mission from "../components/mission"
-import Reconditioning from "../images/reconditioning.jpg"
-import Health from "../images/health-checkup.jpg"
-import Repair from "../images/repair.jpg"
+import ServiceCard from "../components/ServiceCard"
+import About from "../images/brown-and-grey-tool-part-60049.jpg"
 import { Link } from "gatsby"
 
 const IndexPage = () => (
@@ -46,61 +45,20 @@ const IndexPage = () => (
               Bearing, Gaskets, ‘O’ Rings, Scrapper Rings, Cross Heads,
               Connecting Rods and Liners.
             </p>
-            <Link to="/about" className="button-blue">
+            <Link to="/about" className="button-blue-small">
               Learn More
             </Link>
           </div>
-          <div c className="about-sec-right"></div>
+          <div className="about-sec-right">
+            <img src={About} alt="Exim AirCare" />
+          </div>
         </div>
       </div>
     </div>
     <div id="sec3-home">
       <div className="App">
         <h1 className="title">OUR SERVICES</h1>
-        <div className="card-div">
-          <div className="card">
-            <div className="card-top">
-              <img src={Reconditioning} alt="Exim AirCare Reconditioning" />
-            </div>
-            <div className="card-bottom">
-              <h2 className="card-title">RECONDITIONING OF SPARE PARTS</h2>
-              <p className="card-body">
-                Reconditioning of the compressor is essential for keeping the
-                valves in good condition and to enhance the performance of the
-                compressors. If the compressors are not kept under maintenance
-              </p>
-            </div>
-          </div>
-
-          <div className="card">
-            <div className="card-top">
-              <img src={Repair} alt="Exim AirCare Repair" />
-            </div>
-            <div className="card-bottom">
-              <h2 className="card-title">ONSITE REPAIRS AND SERVICING</h2>
-              <p className="card-body">
-                EXIM AIRCARE provides onsite repairs &amp; services, when you
-                need the reliability of compressor committed to keeping every
-                compressor running at peak performance, the experienced people
-                at
-              </p>
-            </div>
-          </div>
-
-          <div className="card">
-            <div className="card-top">
-              <img src={Health} alt="Exim AirCare Health Checkup" />
-            </div>
-            <div className="card-bottom">
-              <h2 className="card-title">HEALTH CHECK UP</h2>
-              <p className="card-body">
-                We are having experienced / well trained compressor specialist
-                with successful track records in the field of Oil, Gas,
-                Petrochemicals, Refineries, Air Separation Plant,
-              </p>
-            </div>
-          </div>
-        </div>
+        <ServiceCard />
       </div>
     </div>
 
@@ -146,19 +104,6 @@ const IndexPage = () => (
           </a>
           <a href="#!">
             <p className="last_chota_heading">SEND E-MAIL</p>
-          </a>
-        </div>
-        <div className="box2">
-          <i className="fas fa-bullhorn"></i>
-          <p className="chota_heading3">CUSTOMER SERVICES</p>
-          <a href="#!">
-            <p className="sub_heading2">
-              Lorem Ipsum is simply dummy <br />
-              text of the printing.
-            </p>
-          </a>
-          <a href="#!">
-            <p className="last_chota_heading">OPEN TICKET</p>
           </a>
         </div>
       </div>

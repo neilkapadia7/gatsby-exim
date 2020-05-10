@@ -6,7 +6,6 @@ import Nav from "./nav"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#3d5af1`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -15,7 +14,6 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
             textDecoration: `none`,
           }}
         >

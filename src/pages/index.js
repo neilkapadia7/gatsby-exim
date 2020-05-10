@@ -5,6 +5,7 @@ import Mission from "../components/mission"
 import Reconditioning from "../images/reconditioning.jpg"
 import Health from "../images/health-checkup.jpg"
 import Repair from "../images/repair.jpg"
+import { Link } from "gatsby"
 
 const IndexPage = () => (
   <Layout>
@@ -30,7 +31,27 @@ const IndexPage = () => (
     </div>
     <div id="sec2-home">
       <div className="App">
-        <h1 className="title">ABOUT EXIM AIRCARE</h1>
+        <div className="about-sec-main-div">
+          <div className="about-sec-left">
+            <h1 className="title2">About Exim Aircare</h1>
+            <p className="about-sec-para">
+              The EXIM AirCare spares are used in various kinds of industries
+              including Engineering &amp; automobiles, chemical industry,
+              industrial gases, etc. The export of EXIM AirCare spares covers
+              countries like Saudi Arabia, Nepal, UK, Asian countries, USA, etc.
+              ‘EXIM AirCare’ has its strength in crafting spares based on
+              several international origins as per the customized requirement of
+              the users. The range of the spares includes Valves and Valve
+              Components, Piston, Piston Rings, Rider Ring, Packing Rings,
+              Bearing, Gaskets, ‘O’ Rings, Scrapper Rings, Cross Heads,
+              Connecting Rods and Liners.
+            </p>
+            <Link to="/about" className="button-blue">
+              Learn More
+            </Link>
+          </div>
+          <div c className="about-sec-right"></div>
+        </div>
       </div>
     </div>
     <div id="sec3-home">

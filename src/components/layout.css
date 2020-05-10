@@ -13,10 +13,11 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;
   text-align: left;
+  background-color: #f4f6fc;
 }
 .App {
   width: 75%;
-  padding: 80px 12.5% 60px 12.5%;
+  padding: 80px 12.5% 80px 12.5%;
   display: table;
 }
 a {
@@ -32,12 +33,25 @@ a:hover {
   margin-top: 20px 0 0 0;
   text-align: center;
 }
+.title2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 43px;
+  margin-top: 0;
+}
 .button-div {
   margin-top: 40px;
 }
 .button-blue {
   padding: 12px 30px;
-  background-color: #482ff7;
+  /* background-color: #482ff7; */
+  background: rgb(108, 183, 255);
+  background: linear-gradient(
+    50deg,
+    rgba(108, 183, 255, 1) 0%,
+    rgba(121, 133, 255, 1) 100%
+  );
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -51,8 +65,9 @@ i {
 header {
   width: 100%;
   display: table;
-  background-color: #3d5af1;
-  /* box-shadow: 0px 0px 35px rgb(146, 146, 146); */
+  /* background-color: #3d5af1; */
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15px rgb(231, 231, 231);
   position: fixed;
   top: 0;
   left: 0;
@@ -66,7 +81,8 @@ header .logo {
   height: 55px;
 }
 header .logo h1 a {
-  color: #fafaf6;
+  /* color: #fafaf6; */
+  color: #242e4c;
   font-size: 25px;
   font-weight: 600;
 }
@@ -87,18 +103,20 @@ nav ul li {
 nav ul li a {
   font-weight: 400;
   font-size: 14px;
-  color: #d1d1d1;
+  /* color: #d1d1d1; */
+  color: #696788;
   text-decoration: none;
 }
 .active-nav {
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #242e4c;
   font-weight: 500;
 }
 /* Home */
 #sec1-home {
   height: 100vh;
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: #fcfcff;
   display: table;
 }
 .heading-line {
@@ -126,10 +144,30 @@ nav ul li a {
 }
 
 #sec2-home {
-  height: 100vh;
+  height: 50vh;
   width: 100%;
-  background-color: rgb(245, 245, 245);
+  /* background-color: rgb(245, 245, 245); */
+  background-color: #f4f4ff;
   display: table;
+}
+.about-sec-main-div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+.about-sec-left,
+.about-sec-right {
+  width: 47%;
+  margin: auto;
+}
+.about-sec-para {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+  margin: 1px 0 30px 0;
+  color: #6f6f6f;
 }
 
 #sec3-home {
@@ -146,18 +184,23 @@ nav ul li a {
   margin: 60px 0;
 }
 .card {
-  width: 30%;
+  width: 31%;
   height: 450px;
   background-color: #ffffff;
   margin: 0 auto;
   box-shadow: 4px 4px 14px 0 rgba(0, 0, 0, 0.18);
+  border-radius: 10px;
+  display: table;
 }
 .card-top {
   background-color: #d1d1d1;
   height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 .card-bottom {
   height: 250px;
+  display: table;
 }
 .card-top img {
   height: 100%;
@@ -216,7 +259,7 @@ nav ul li a {
   font-family: "Roboto", sans-serif;
   color: #000;
   line-height: 25px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
   margin-top: 30px;
 }
@@ -226,13 +269,15 @@ nav ul li a {
   color: #6f6f6f;
   line-height: 20px;
   text-align: center;
+  font-weight: 300;
 }
 .last_chota_heading {
   font-size: 12px;
   font-family: "Roboto", sans-serif;
-  color: #ff214e;
+  /* color: #ff214e; */
+  color: #1273eb;
   line-height: 25px;
-  font-weight: 400;
+  font-weight: 500;
   text-align: center;
 }
 

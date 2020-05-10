@@ -20,7 +20,12 @@ const ContactPage = () => {
             <div className="input-field">
               <label>
                 Name
-                <input type="text" placeholder="Enter your name" required />
+                <input
+                  type="text"
+                  placeholder="Enter your name"
+                  name="name"
+                  required
+                />
               </label>
             </div>
             <div className="input-field">
@@ -28,6 +33,7 @@ const ContactPage = () => {
                 Email
                 <input
                   type="email"
+                  name="email"
                   placeholder="Enter your email address"
                   required
                 />
@@ -38,6 +44,7 @@ const ContactPage = () => {
                 Phone Number
                 <input
                   type="number"
+                  name="number"
                   placeholder="Enter your phone number"
                   required
                 />
@@ -46,7 +53,11 @@ const ContactPage = () => {
             <div className="input-field">
               <label>
                 Message
-                <textarea placeholder="Enter your message" required></textarea>
+                <textarea
+                  placeholder="Enter your message"
+                  name="message"
+                  required
+                ></textarea>
               </label>
             </div>
             <div className="input-submit">

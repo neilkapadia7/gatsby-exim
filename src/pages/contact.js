@@ -20,7 +20,7 @@ const ContactPage = () => {
             name="contact-form"
             method="POST"
             data-netlify="true"
-            data-netlify-honeypot="bot-field"
+            // data-netlify-honeypot="bot-field"
             data-netlify-recaptcha="true"
           >
             <div className="input-field">

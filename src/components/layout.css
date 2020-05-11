@@ -415,6 +415,33 @@ footer a {
 }
 
 /* Products Page */
+.product-div {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 70px auto;
+}
+.product-card {
+  width: 45%;
+  height: 450px;
+  background-color: #ffffff;
+  margin: 30px auto;
+  box-shadow: 4px 4px 14px 0 rgba(0, 0, 0, 0.18);
+  display: table;
+}
+.product-card-top {
+  background-color: #d1d1d1;
+  height: 200px;
+  overflow: hidden;
+}
+.product-card-bottom {
+  height: 250px;
+  display: table;
+}
+.product-card-top img {
+  height: 100%;
+  width: 100%;
+}
 
 /* Contact Page */
 form {

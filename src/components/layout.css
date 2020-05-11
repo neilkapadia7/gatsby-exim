@@ -187,11 +187,11 @@ nav ul li a {
   margin: auto;
 }
 .about-sec-para {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 300;
   font-family: "Roboto", sans-serif;
   line-height: 24px;
-  margin: 1px 0 30px 0;
+  margin: 20px 0 30px 0;
   color: #5e5e5e;
 }
 
@@ -206,7 +206,7 @@ nav ul li a {
 #sec3-home {
   height: 100vh;
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: #fcfcff;
   display: table;
 }
 .card-div {
@@ -222,13 +222,13 @@ nav ul li a {
   background-color: #ffffff;
   margin: 0 auto;
   box-shadow: 4px 4px 14px 0 rgba(0, 0, 0, 0.18);
-  border-radius: 10px;
+  /* border-radius: 10px; */
   display: table;
 }
 .card-top {
   background-color: #d1d1d1;
   height: 200px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   overflow: hidden;
 }
 .card-bottom {
@@ -242,7 +242,7 @@ nav ul li a {
 .card-title {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 17px;
   text-align: center;
   width: 100%;
   margin: 40px auto 20px auto;
@@ -261,7 +261,7 @@ nav ul li a {
 #sec4-home {
   height: 55vh;
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: #fcfcff;
   display: table;
 }
 .row3 {

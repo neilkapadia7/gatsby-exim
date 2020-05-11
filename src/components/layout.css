@@ -88,6 +88,15 @@ i {
 }
 
 /* Nav */
+.menu-toggle {
+  display: none;
+}
+.menu-toggle i {
+  display: none;
+}
+.fa-times {
+  display: none;
+}
 header {
   width: 100%;
   display: table;
@@ -136,7 +145,7 @@ nav ul li a {
 .active-nav {
   /* color: #ffffff; */
   color: #242e4c;
-  font-weight: 500;
+  font-weight: 600;
 }
 /* Home */
 #sec1-home {
@@ -520,6 +529,41 @@ textarea {
   }
 }
 
+@media screen and (max-width: 870px) {
+  /* Navbar */
+
+  header .logo {
+    float: none;
+    padding-left: 0%;
+    line-height: 45px;
+    height: 45px;
+    width: 100%;
+    text-align: center;
+  }
+  nav {
+    float: none;
+    padding-right: 0%;
+    text-align: center;
+    width: 100%;
+  }
+  nav ul {
+    text-align: center;
+    padding: 0;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+  }
+  nav ul li {
+    line-height: 55px;
+    height: 55px;
+    padding: 0 20px;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 860px) {
   .title2 {
     text-align: left;
@@ -738,5 +782,17 @@ textarea {
   .App {
     width: 90%;
     padding: 80px 5% 80px 5%;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  nav ul li {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  nav ul li {
+    padding: 0 10px;
   }
 }

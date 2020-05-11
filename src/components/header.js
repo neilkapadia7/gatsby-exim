@@ -21,8 +21,12 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-
-    <Nav />
+    <center>
+      <Nav />
+    </center>
+    <div class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
   </header>
 )
 

@@ -155,7 +155,7 @@ const products = () => {
       <div className="sec3-home">
         <div className="App">
           <center>
-            <h1 className="title2">Our Services</h1>
+            <h1 className="title3">Our Services</h1>
           </center>
           <ServiceCard />
         </div>

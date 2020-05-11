@@ -34,7 +34,8 @@ a:hover {
   margin-top: 20px 0 0 0;
   text-align: center;
 }
-.title2 {
+.title2,
+.title3 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 34px;
@@ -362,7 +363,8 @@ footer a {
 }
 
 /* About Page */
-.about-page-main-div {
+.about-page-main-div,
+.about-page-main-div2 {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -498,4 +500,243 @@ textarea {
   width: 100%;
   font-weight: 500 !important;
   font-size: 13px !important;
+}
+
+@media screen and (max-width: 1100px) {
+  .App {
+    width: 85%;
+    padding: 80px 7.5% 80px 7.5%;
+    display: table;
+  }
+  .site-title {
+    font-size: 65px;
+    margin: 80px 0 30px 0;
+    letter-spacing: 3px;
+    line-height: 85px;
+  }
+  .site-description {
+    width: 85%;
+    margin: -20px 15% 0 0;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .title2 {
+    text-align: left;
+  }
+  .button-blue-small {
+    text-align: center !important;
+  }
+
+  /* Home-About Section */
+  .about-sec-main-div {
+    flex-wrap: wrap-reverse;
+    margin: 10px 0;
+  }
+  .about-sec-left,
+  .about-sec-right {
+    width: 90%;
+    margin: auto;
+  }
+
+  .about-sec-right img {
+    height: auto;
+    width: 70%;
+    margin: 0 15% 40px 15%;
+  }
+
+  /* Mission */
+  .mission-para {
+    width: 80%;
+  }
+
+  /* About Page */
+  .about-page-main-div2 {
+    flex-wrap: wrap-reverse;
+  }
+  .about-page-left {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .about-page-right {
+    width: 100%;
+    margin-left: 0%;
+    padding: 40px 0;
+  }
+  .about-page-right2 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .about-page-left2 {
+    width: 100%;
+    margin-right: 0%;
+    padding: 40px 0;
+  }
+
+  /* Page Subheading */
+  .page-description-para {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .page-description-para {
+    width: 95%;
+  }
+  /* Services */
+  .card {
+    width: 90%;
+    height: 450px;
+    margin: 20px auto;
+  }
+
+  /* Sec4-home */
+  .row3 {
+    width: 65%;
+    height: 100%;
+    display: table;
+    margin: 45px auto;
+  }
+  .box2 {
+    height: auto;
+    width: 65%;
+    margin: auto;
+  }
+  #sec4-home i {
+    margin-top: 30px;
+  }
+
+  /* Mission */
+  .mission-para {
+    width: 90%;
+  }
+
+  /* Products Page */
+  .title3 {
+    text-align: center;
+  }
+  .product-div {
+    margin: 40px auto;
+  }
+  .product-card {
+    width: 85%;
+    margin: 20px auto;
+  }
+  .product-card-top {
+    background-color: #d1d1d1;
+    height: 200px;
+    overflow: hidden;
+  }
+  .product-card-bottom {
+    height: 250px;
+    display: table;
+  }
+  .product-card-top img {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* Footer */
+  footer {
+    padding: 26px 0;
+    font-size: 13px;
+    display: table;
+    line-height: 20px;
+  }
+  footer a {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Home Title */
+  .title {
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 0px 0 0 0;
+  }
+  .mission-title {
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .mission-para {
+    width: 92%;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  /* Home Sec1 */
+  .heading-line {
+    width: 25%;
+  }
+  .site-title {
+    font-weight: 800;
+    font-size: 55px;
+    letter-spacing: 2.5px;
+    line-height: 70px;
+  }
+  .site-description {
+    font-size: 16px;
+    margin: -10px 15% 0 0;
+  }
+  .button-blue {
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  /* Home Sec2 */
+  .about-sec-left {
+    width: 95%;
+    margin: auto;
+  }
+  .about-sec-right img {
+    display: none;
+  }
+
+  /* About Page */
+  .about-page-left {
+    width: 100%;
+  }
+  .about-page-right2 {
+    width: 100%;
+  }
+  .about-heading-para {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 1.2px;
+  }
+  .about-subheading-para {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(85, 85, 85);
+  }
+
+  /* Product Page */
+  .product-div {
+    width: 100%;
+  }
+  .product-card {
+    width: 95%;
+  }
+  /* Service Card */
+  .card {
+    width: 95%;
+  }
+
+  /* Contact Page */
+
+  form {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .App {
+    width: 90%;
+    padding: 80px 5% 80px 5%;
+  }
 }

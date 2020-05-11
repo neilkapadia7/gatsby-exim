@@ -45,7 +45,7 @@ const AboutPage = () => {
             </div>
           </div>
 
-          <div className="about-page-main-div">
+          <div className="about-page-main-div2">
             <div className="about-page-left2">
               <h3 className="about-heading-para">WHY US?</h3>
               <p className="about-subheading-para">
@@ -77,7 +77,7 @@ const AboutPage = () => {
       <div className="sec3-home">
         <div className="App">
           <center>
-            <h1 className="title2">Our Services</h1>
+            <h1 className="title3">Our Services</h1>
           </center>
           <ServiceCard />
         </div>

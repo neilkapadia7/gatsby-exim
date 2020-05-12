@@ -12,7 +12,7 @@ const AboutPage = () => {
       <SEO title="About" />
       <div id="sec1-home">
         <div className="App">
-          <h1 className="title">About Us</h1>
+          <h1 className="title top-title">About Us</h1>
           <center>
             <p className="page-description-para">
               We are idea-driven, working with a strong focus on design and user

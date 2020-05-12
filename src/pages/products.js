@@ -18,7 +18,7 @@ const products = () => {
       <SEO title="Products" />
       <div id="sec1-home">
         <div className="App">
-          <h1 className="title">Our Products</h1>
+          <h1 className="title top-title">Our Products</h1>
           <center>
             <p className="page-description-para">
               We are idea-driven, working with a strong focus on design and user

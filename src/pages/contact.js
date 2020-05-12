@@ -8,7 +8,7 @@ const ContactPage = () => {
       <SEO title="Contact" />
       <div id="sec1-home">
         <div className="App">
-          <h1 className="title">Drop us a line</h1>
+          <h1 className="title top-title">Drop us a line</h1>
           <center>
             <p className="page-description-para">
               {/* We would love to hear about start your new Project? */}

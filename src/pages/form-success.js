@@ -15,7 +15,7 @@ const FormSuccess = () => {
           <center>
             <div style={{ marginTop: "50px" }}>
               <Link href="/contact" className="button-blue-small">
-                Know More
+                Back
               </Link>
             </div>
           </center>

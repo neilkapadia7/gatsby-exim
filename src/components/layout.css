@@ -516,6 +516,12 @@ textarea {
   font-weight: 500 !important;
   font-size: 13px !important;
 }
+textarea:focus,
+input:focus {
+  border: 1px solid rgb(108, 183, 255) !important;
+  box-shadow: 0 0 5px rgb(108, 183, 255);
+  transition: 0.3s;
+}
 
 @media screen and (max-width: 1100px) {
   .App {

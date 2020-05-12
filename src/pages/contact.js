@@ -51,9 +51,10 @@ const ContactPage = () => {
               <label>
                 Phone Number
                 <input
-                  type="number"
+                  type="tel"
                   name="number"
                   placeholder="Enter your phone number"
+                  minLength="10"
                   required
                 />
               </label>

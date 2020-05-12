@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Exim AirCare`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `EXIM AirCare is a branch of EXIM group which provides you compressors and air filters as per your necessities. EXIM group has been in the field of export-import since the year 2000.`,
     author: `NeyaTech Developers`,
   },
   plugins: [

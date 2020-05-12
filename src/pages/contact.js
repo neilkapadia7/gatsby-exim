@@ -21,7 +21,7 @@ const ContactPage = () => {
             method="POST"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
-            data-netlify-recaptcha="true"
+            // data-netlify-recaptcha="true"
           >
             <input type="hidden" name="form-name" value="contact" />
             <div className="input-field">
@@ -67,7 +67,7 @@ const ContactPage = () => {
                 ></textarea>
               </label>
             </div>
-            <div data-netlify-recaptcha="true"></div>
+            {/* <div data-netlify-recaptcha="true"></div> */}
             <div className="input-submit">
               <input
                 type="submit"
